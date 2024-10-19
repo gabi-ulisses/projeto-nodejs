@@ -1,0 +1,31 @@
+{
+  "name": "auth-project",
+  "version": "0.0.1",
+  "description": "Project for authentication with jwt token and database sqlite",
+  "main": "index.js",
+  "author": "Gabrielle Ulisses",
+  "license": "MIT",
+  "scripts": {
+    "init-db": "ts-node src/initDatabase.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.7",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "crypto-js": "^4.2.0",
+    "crypto.js": "^3.2.2",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0"
+  }
+}
